@@ -207,11 +207,15 @@ void qspInitStats()
 	qspAddStatName(qspStatExec, QSP_STATIC_STR(QSP_FMT("EXEC")), 2);
 	qspAddStatName(qspStatExit, QSP_STATIC_STR(QSP_FMT("EXIT")), 2);
 	qspAddStatName(qspStatFreeLib, QSP_STATIC_STR(QSP_FMT("FREELIB")), 2);
+  qspAddStatName(qspStatFreeLib, QSP_STATIC_STR(QSP_FMT("KILLQST")), 2);
+  qspAddStatName(qspStatFreeLib, QSP_STATIC_STR(QSP_FMT("DELLIB")), 2);
 	qspAddStatName(qspStatGoSub, QSP_STATIC_STR(QSP_FMT("GOSUB")), 2);
 	qspAddStatName(qspStatGoSub, QSP_STATIC_STR(QSP_FMT("GS")), 2);
 	qspAddStatName(qspStatGoTo, QSP_STATIC_STR(QSP_FMT("GOTO")), 2);
 	qspAddStatName(qspStatGoTo, QSP_STATIC_STR(QSP_FMT("GT")), 2);
-	qspAddStatName(qspStatIncLib, QSP_STATIC_STR(QSP_FMT("INCLIB")), 2);
+	qspAddStatName(qspStatIncLib, QSP_STATIC_STR(QSP_FMT("ADDQST")), 2);
+  qspAddStatName(qspStatIncLib, QSP_STATIC_STR(QSP_FMT("ADDLIBP")), 2);
+  qspAddStatName(qspStatIncLib, QSP_STATIC_STR(QSP_FMT("INCLIB")), 2);
 	qspAddStatName(qspStatJump, QSP_STATIC_STR(QSP_FMT("JUMP")), 2);
 	qspAddStatName(qspStatKillAll, QSP_STATIC_STR(QSP_FMT("KILLALL")), 2);
 	qspAddStatName(qspStatKillObj, QSP_STATIC_STR(QSP_FMT("KILLOBJ")), 2);
